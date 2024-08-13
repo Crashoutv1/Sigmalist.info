@@ -1,0 +1,38 @@
+@keyframes rgb-flicks{
+    0% { color: red; }
+    20% { color: orange; }
+    40% { color: yellow; }
+    60% { color: green; }
+    80% { color: blue; }
+    100% { color: purple; }
+}
+
+.rgb-effect {
+    font-size: 40px;
+    animation: rgb-flicks 2s infinite;
+}
+
+body{
+    background-image: url(Hackerman.png) ;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: 1750px;
+}
+
+h1{
+    width: 1000px;
+    font-size: 60px;
+    font-family: fantasy;
+    font-style: italic;
+    text-shadow: 5px 5px 5px rgb(255, 0, 0); 
+}
+
+p{
+
+    padding: 4px;
+    font-size: 60px;
+    font-family: fantasy;
+    font-style: italic;
+    text-shadow: 5px 5px 5px rgb(255, 0, 0);
+}
